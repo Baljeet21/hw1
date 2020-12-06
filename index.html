@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrej Slocik">
+    <title>Domaca uloha</title>
+</head>
+<body>
+
+<div id="orange">
+    Pomaranc
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UVySO3sMCpjVPue87c4NCwHaG8%26pid%3DApi&f=1" alt="pomaranc" width="10%">
+
+</div>
+
+<div><button onclick="hide()" id="btn">Odkaz na jablko</button></div>
+<div id="apple">
+    Jablko
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.05mCUvVovZE1czqJZW3jKgHaEK%26pid%3DApi&f=1" alt="jablko" width="10%">
+</div>
+
+</body>
+
+<script>
+    document.getElementById("apple").style.visibility = "hidden";
+
+   function hide() {
+       document.getElementById("orange").style.visibility = "hidden";
+       document.getElementById("apple").style.visibility = "visible";
+       document.getElementById("btn").style.visibility = "hidden";
+   };
+
+
+</script>
+</html>
